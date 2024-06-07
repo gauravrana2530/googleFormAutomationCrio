@@ -177,7 +177,7 @@
             {
               "object_notation": "COMMAND",
               "operator": "contains",
-              "expected_value": "GetElementText"
+              "expected_value": "GetElementText" 
             },
             {
               "object_notation": "RESPONSE",
