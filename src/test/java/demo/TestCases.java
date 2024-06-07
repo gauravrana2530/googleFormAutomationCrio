@@ -68,10 +68,10 @@ public class TestCases {
         Wrappers.successMessage(driver);
     }
 
-    // @AfterTest
-    // public void endTest() {
-    //     if (driver != null) {
-    //         driver.quit();
-    //     }
-    // }
+    @AfterTest
+    public void endTest() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }
